@@ -16,11 +16,11 @@
 ### :x: Week 6
 
 - James Carr: Added name to part2.txt and pushed to remote.
-- Jaysinh Maher: 
-- Lukas Hammer:
-- Jan W Makarewicz:
-- Youssef Sadquy:
-- Kalam Hakim:
+- Jaysinh Maher: Added name to part2.txt and pushed to remote.
+- Lukas Hammer: Added name to part2.txt and pushed to remote.
+- Jan W Makarewicz: Added name to part2.txt and pushed to remote.
+- Youssef Sadquy: Added name to part2.txt and pushed to remote.
+- Kalam Hakim: Added name to part2.txt and pushed to remote.
 - Somma Lord-Michael:
 
 ### :x: Week 7
