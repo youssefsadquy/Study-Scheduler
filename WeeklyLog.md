@@ -1,7 +1,7 @@
 # Group 36 weekly Log :fire:
 <hr />
 
-## Beginning of week breif (group entry)
+## Beginning of week brief (group entry)
 
 ### :white_check_mark: Week 6
 - All group members to clone the group repository.  Familiarise with git commands clone, push, pull, add,  commit, log, and status. Individual group names to be added to part2.txt and pushed to remote.
