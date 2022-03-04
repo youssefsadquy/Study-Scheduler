@@ -28,4 +28,5 @@
 ### :x: Week 7
 - Kalam Hakim: Updated Week 6 Log to completed.
 - Jan Makarewicz: Created functional requirments file.
+- Jaysinh Maher: Reformatted functional requirements file.
 ### :x: Week 8
