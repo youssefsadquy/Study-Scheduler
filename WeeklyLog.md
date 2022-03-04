@@ -7,6 +7,8 @@
 - All group members to clone the group repository.  Familiarise with git commands clone, push, pull, add,  commit, log, and status. Individual group names to be added to part2.txt and pushed to remote.
 
 ### :x: Week 7
+- Kalam to update weekly log and mark as complete.
+- All group members to collaborate in the markdown design of the weekly log and functional requirements.
 
 ### :x: Week 8
 
@@ -25,4 +27,5 @@
 
 ### :x: Week 7
 - Kalam Hakim: Updated Week 6 Log to completed.
+
 ### :x: Week 8
