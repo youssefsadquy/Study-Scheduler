@@ -13,7 +13,7 @@
 <hr>
 
 ## End of week (Individual entry)
-### :x: Week 6
+### :white_check_mark: Week 6
 
 - James Carr: Added name to part2.txt and pushed to remote.
 - Jaysinh Maher: Added name to part2.txt and pushed to remote.
