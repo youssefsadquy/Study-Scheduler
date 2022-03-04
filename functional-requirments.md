@@ -2,7 +2,7 @@
 
 ## Functional Requirements
 
-###**The below listed items are the functional requirements for the system designed by Group 36**
+##**The below listed items are the functional requirements for the system designed by Group 36**
 
 - [ ] Users are able to select the most optimal study split from a pre-made list
 
