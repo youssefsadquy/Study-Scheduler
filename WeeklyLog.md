@@ -24,5 +24,5 @@
 - Somma Lord-Michael:
 
 ### :x: Week 7
-
+- Kalam Hakim: Updated Week 6 Log to completed.
 ### :x: Week 8
