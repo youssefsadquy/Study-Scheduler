@@ -1,8 +1,8 @@
-# Group 36
+#⚙️ Group 36 ⚙️
 
-## Functional Requirements
+##🛠️ Functional Requirements🛠️
 
-_**The below listed items are the functional requirements for the system designed by Group 36**_
+💡_**The below listed items are the functional requirements for the system designed by Group 36**_💡
 
 - [ ] Users are able to select the most optimal study split from a pre-made list
 
