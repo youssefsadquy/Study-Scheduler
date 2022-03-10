@@ -30,5 +30,7 @@
 - Jan Makarewicz: Created functional requirments file.
 - Jaysinh Maher: Reformatted functional requirements file.
 - James Carr: Participated in the markdown design of group pages.
+- Youssef Sadquy: Participated in the markdown design of group pages.
+
 
 ### :x: Week 8
