@@ -26,9 +26,9 @@ _**The below listed items are the functional requirements for the system designe
 
 - [ ] The system must adjust the user's study schedule when daily tasks are not complete.
 
-- [ ] The student must select how they are to be notified.
+- [ ] The student must select how they want to be notified.
 
-- [ ] The system can send notifications via email, SMS, smartphone notifications.
+- [ ] The system can send notifications via email, SMS, push notifications.
 
 - [ ] The system should notify the user about all upcoming events, these being; lectures, tutorials, labs, seminars, exams and study sessions.
 
