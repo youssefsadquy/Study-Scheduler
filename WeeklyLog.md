@@ -25,7 +25,7 @@
 - Kalam Hakim: Added name to part2.txt and pushed to remote.
 - Somma Lord-Michael:
 
-### :x: Week 7
+### :white_check_mark: Week 7
 - Kalam Hakim: Updated Week 6 Log to completed.
 - Jan Makarewicz: Created functional requirments file.
 - Jaysinh Maher: Reformatted functional requirements file.
@@ -34,3 +34,4 @@
 
 
 ### :x: Week 8
+-- Kalam Hakim: Updated Week 6 Log to completed.
