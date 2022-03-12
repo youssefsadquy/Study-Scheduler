@@ -36,4 +36,4 @@
 ### :x: Week 8
 - Kalam Hakim: Updated Week 7 Log to completed.
 - Jan Makarewicz: Update to Weekly log working on use case digram.
-- James Carr: Begin working on first UML use case description and diagram.
+- James Carr: Created new UML Branch and pushed first draft UML use-case diagram to remote.
