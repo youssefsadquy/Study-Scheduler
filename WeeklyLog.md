@@ -34,4 +34,5 @@
 
 
 ### :x: Week 8
--- Kalam Hakim: Updated Week 7 Log to completed.
+- Kalam Hakim: Updated Week 7 Log to completed.
+- James Carr: Begin working on first UML use case description and diagram.
