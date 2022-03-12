@@ -34,4 +34,5 @@
 
 
 ### :x: Week 8
--- Kalam Hakim: Updated Week 7 Log to completed.
+- Kalam Hakim: Updated Week 7 Log to completed.
+- Jan Makarewicz: Update to Weekly log working on use case digram.
