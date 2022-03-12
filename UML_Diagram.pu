@@ -1,60 +1,12 @@
 /'
- ' * * * Group 36 UML Diagram * * * 
+ ' * * * Group 36 UML Diagram * * * '
  '
- ' You will need to install PlantUML tools to generate the 
- ' Image from source.
- ' 
- ' https://plantuml.com/download
-'/
-
-@startuml Use_case
-left to right direction
-
-actor Student 
-actor Admin
-actor Conveynor
-
-package OurSystem {
-    usecase "Create Course" as create_cse
-    usecase "Create accounts" as create_acc
-    usecase "Upload learning materials" as upload_learning_materials
-
-    ' usecase "login" as login
-    ' usecase "logout" as logout
-
-    usecase "Daily tasks" as todos
-    usecase "View schedule" as view_sched
-    usecase "Adjust schedule" as adjustment
-    usecase "Dashboard" as dashboard
-
-    create_cse -- Admin
-    create_acc -- Admin
-    upload_learning_materials -- Admin
-    ' login -- Admin
-    ' logout -- Admin
-
-    ' upload_learning_materials . login : << inlcudes >>
-    ' create_acc . login : << includes >>
-    ' create_cse . login : << inlcudes >>
-    ' login . view_sched : << inlcudes >>
-    ' login . todos : << inlcudes >>
-    ' login . adjustment : << inlcudes >>
-    ' login . dashboard : << inlcudes >>
-
-    ' Student -- login
-    ' Student -- logout
-    Student -- view_sched
-    Student -- todos
-    Student -- adjustment
-    Student -- dashboard
-
-    ' Conveynor -- login
-    ' Conveynor -- logout
-    Conveynor -- upload_learning_materials
-}
-
-
-
-
-
-@enduml
+ ' UML Diagram and src code is currently being developed in the
+ ' UML-Branch.  To view and make changes, checkout UML-Branch.
+ '
+ ' Merge to main only when diagram is complete and the group is happy with the
+ ' the final implementation.
+ '
+ ' git checkout UML-Branch
+ '
+ '/
