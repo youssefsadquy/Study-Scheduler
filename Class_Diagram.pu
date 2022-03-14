@@ -14,7 +14,7 @@
 
 @startuml Class_Diagram
 
-class someClass {
+class System {
     #int list
     ~int of
     +int attributes_here
@@ -24,27 +24,77 @@ class someClass {
     + listed_here()
 }
 
-class someClass2 {
-    #int list
-    ~int of
-    +int attributes_here
-    -int var
+class User {
+    int uuid
+    String name
 
-    # methods()
-    + listed_here()
+    + setName() : String
+    + getName() : String
+    + setId() : int
+    + getId() : int
 }
 
-class someClass3 {
-    #int list
-    ~int of
-    +int attributes_here
-    -int var
-
-    # methods()
-    + listed_here()
+class Student {
+    int yearOfStudy
 }
 
-someClass --> someClass2
-someClass --> someClass3
+class Conveynor {
+    #int var
+}
+
+class Admin {
+    int var
+}
+
+class Course {
+    int courseId
+    String courseName
+
+    + setCourseName()
+    + getCourseName()
+    + setCourseId()
+    + getCourseId()
+
+}
+
+class DailyTasks {
+    String taskName
+    bool tasksCompleted
+    int tasksOutstanding
+
+    + setTasks()
+    + getTasks()
+    + markTaskDone()
+}
+
+class StudentSchedule {
+    SchduleUI schedule
+    ScheduleUI viewScehdule
+    ScheduleUI adjustSchedule
+    + getSchedule()
+    + setSchedule()
+}
+
+class Modules {
+    int moduleId
+}
+
+'System can exist without user but not the other way around
+System "1" -* "many" User : contains
+
+User --> Conveynor
+User -> Admin
+User --> Student
+
+Conveynor "1" --o "0..*" Modules : "Taught by"
+Student "1..*" --o "1" Course
+Student -- Modules
+
+System -- Course
+
+Course -- Modules
+
+Student -- DailyTasks
+Student -- StudentSchedule
 
 @enduml
