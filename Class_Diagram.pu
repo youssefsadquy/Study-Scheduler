@@ -1,0 +1,50 @@
+/'
+ ' * * * Group 36 Class Diagram * * * 
+ '
+ ' You will need to install PlantUML tools to generate the 
+ ' Image from source.
+ ' 
+ ' https://plantuml.com/download
+ '
+ ' # : Protected
+ ' ~ : Package Private
+ ' + : Public
+ ' - : Private
+ '/
+
+@startuml Class_Diagram
+
+class someClass {
+    #int list
+    ~int of
+    +int attributes_here
+    -int var
+
+    # methods()
+    + listed_here()
+}
+
+class someClass2 {
+    #int list
+    ~int of
+    +int attributes_here
+    -int var
+
+    # methods()
+    + listed_here()
+}
+
+class someClass3 {
+    #int list
+    ~int of
+    +int attributes_here
+    -int var
+
+    # methods()
+    + listed_here()
+}
+
+someClass --> someClass2
+someClass --> someClass3
+
+@enduml

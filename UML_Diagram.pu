@@ -5,6 +5,11 @@
  ' Image from source.
  ' 
  ' https://plantuml.com/download
+ '
+ ' # : Protected
+ ' ~ : Package Private
+ ' + : Public
+ ' - : Private
 '/
 
 @startuml Use_case
