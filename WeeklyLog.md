@@ -37,3 +37,6 @@
 - Kalam Hakim: Updated Week 7 Log to completed.
 - Jan Makarewicz: Update to Weekly log working on use case digram.
 - James Carr: Created new UML Branch and pushed first draft UML use-case diagram to remote.
+
+### :x: Week 9
+- Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
