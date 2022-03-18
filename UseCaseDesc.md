@@ -1,2 +1,4 @@
+
 ## Create Schedule
 The purpose of this use case is to allow the user to create their own schedule plan so that they can view it. The functional requirement this meets is "The system will provide for manual adjustment of the study schedule dates and times". The primary user is the student and the system to update the calendar.
+
