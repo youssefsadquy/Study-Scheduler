@@ -6,11 +6,17 @@
 ### :white_check_mark: Week 6
 - All group members to clone the group repository.  Familiarise with git commands clone, push, pull, add,  commit, log, and status. Individual group names to be added to part2.txt and pushed to remote.
 
-### :x: Week 7
+### :white_check_mark: Week 7
 - Kalam to update weekly log and mark as complete.
 - All group members to collaborate in the markdown design of the weekly log and functional requirements.
 
-### :x: Week 8
+### :white_check_mark: Week 8
+- Group to discuss and create UML diagram and use cases.
+- UML diagram complete, use cases outstanding.
+
+### :x: Week 9
+- Create use case descriptions
+- Create UML Class diagram.
 
 <hr>
 
@@ -40,4 +46,4 @@
 
 ### :x: Week 9
 - Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
-- James Carr: Create UML use case diagram from uml source and merge uml development branch
+- James Carr: Generated UML use case diagram from uml source and merge uml development branch
