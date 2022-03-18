@@ -40,3 +40,4 @@
 
 ### :x: Week 9
 - Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
+- James Carr: Create UML use case diagram from uml source and merge uml development branch

@@ -1,12 +1,87 @@
 /'
  ' * * * Group 36 UML Diagram * * * '
  '
- ' UML Diagram and src code is currently being developed in the
- ' UML-Branch.  To view and make changes, checkout UML-Branch.
+ ' You will need to install PlantUML tools to generate the 
+ ' Image from source.
+ ' 
+ ' plantuml generate <src> -o <filename>
+ ' 
+ ' https://plantuml.com/download
  '
- ' Merge to main only when diagram is complete and the group is happy with the
- ' the final implementation.
- '
- ' git checkout UML-Branch
- '
- '/
+ ' # : Protected
+ ' ~ : Package Private
+ ' + : Public
+ ' - : Private
+'/
+
+@startuml Use_case
+left to right direction
+
+actor Student 
+actor Admin
+actor Conveynor
+
+skinparam ArrowThickness 2
+skinparam ArrowColor #Black
+
+package OurSystem {
+    usecase "Create Course" as create_cse
+
+    usecase "Create accounts" as create_acc
+    usecase "Create Student account" as student_acc
+    create_acc <.. student_acc #blue
+    usecase "Create conveynor account" as conveynor_acc
+    create_acc <.. conveynor_acc #blue : << extends >>
+
+    usecase "Create schedule" as create_sched
+
+    usecase "Upload learning materials" as upload_learning_materials
+    usecase "Daily tasks" as todos
+    usecase "View schedule" as view_sched
+    usecase "Adjust schedule" as adjustment
+    usecase "Dashboard" as dashboard
+    
+    usecase "Settings" as settings
+    usecase "Notifications" as s_notifications
+    usecase "Preferences" as s_prefs
+    usecase "Mark completed" as mark_complete
+
+    settings .. s_notifications #blue
+    settings .. s_prefs #blue
+
+    /'
+     ' Whenever adjustment use case happens, view schedule use case will happen
+     ' as a subcase of the adjstment use case. 
+     '/
+    adjustment ..> view_sched #DarkRed
+
+    create_acc -- Admin #Green
+
+    Student - view_sched
+    Student - todos
+    Student - adjustment
+    Student - dashboard
+    Student - create_sched
+    Student - settings
+
+    create_sched ..> view_sched #DarkRed
+
+    dashboard ..> view_sched #DarkRed
+    dashboard ..> todos #DarkRed: << inlcudes >>
+
+    todos -left- adjustment
+    todos - mark_complete
+
+    Conveynor -- upload_learning_materials
+    Conveynor -- create_cse
+    Conveynor -- settings
+
+    /' 
+     ' Whenever a course is created, learning materials should be uploaded.
+     '/
+    create_cse .> upload_learning_materials #DarkRed
+    upload_learning_materials .> adjustment #DarkRed
+}
+
+@enduml
+>>>>>>> UML-Branch
