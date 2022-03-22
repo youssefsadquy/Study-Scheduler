@@ -5,6 +5,7 @@
 </div>
 
 <hr>
+
 ## :mag_right: Use case one
 
 ### Use case name
