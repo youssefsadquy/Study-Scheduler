@@ -1,4 +1,4 @@
-# Group 36 weekly Log :fire:
+# Group 36 weekly log :fire:
 <hr />
 
 ## Beginning of week brief (group entry)
@@ -14,9 +14,13 @@
 - Group to discuss and create UML diagram and use cases.
 - UML diagram complete, use cases outstanding.
 
-### :x: Week 9
+### :white_check_mark: Week 9
 - Create use case descriptions
 - Create UML Class diagram.
+
+### :x: Week 10
+- Continue working on use case descriptions.
+- Continue workong on UML Class Diagram
 
 <hr>
 
@@ -38,12 +42,15 @@
 - James Carr: Participated in the markdown design of group pages.
 - Youssef Sadquy: Reformatted functional requirements file.
 
-### :x: Week 8
+### :white_check_mark: Week 8
 - Kalam Hakim: Updated Week 7 Log to completed.
 - Jan Makarewicz: Update to Weekly log working on use case digram.
 - James Carr: Created new UML Branch and pushed first draft UML use-case diagram to remote.
 
-### :x: Week 9
+### :white_check_mark: Week 9
 - Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
-- James Carr: Generated UML use case diagram from uml source and merge uml development branch
+- James Carr: Generated UML use case diagram from uml source and merged uml development branch.  Began use case class diagram
 - Lukas Hammer: Formatted functional requirements and fixed typos
+
+### :x: Week 10
+- James Carr: Inserted UML diagram image into use case document.  Began working on a use case description.
