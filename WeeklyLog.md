@@ -53,4 +53,4 @@
 - Lukas Hammer: Formatted functional requirements and fixed typos
 
 ### :x: Week 10
-- James Carr: Inserted UML diagram image into use case document.  Began working on a use case description.
+- James Carr: Inserted UML diagram image into use case document.  Began working on a use case description. Added methods to class diagram.

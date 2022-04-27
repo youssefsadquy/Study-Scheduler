@@ -1,5 +1,12 @@
 /'
  ' * * * Group 36 Class Diagram * * * 
+ ' 
+ ' Paste UML source code into online demo server to generate image at:
+ ' https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+ '
+ ' Images are also added to the main repository ' Class_Diagram.png '
+ '
+ ' OR
  '
  ' You will need to install PlantUML tools to generate the 
  ' Image from source.
@@ -10,51 +17,77 @@
  ' ~ : Package Private
  ' + : Public
  ' - : Private
+ '
  '/
 
 @startuml Class_Diagram
 
 class System {
-    #int list
-    ~int of
-    +int attributes_here
-    -int var
+    + LocalDateTime systemStarted
+    + LocalDateTime upTime
+    + User[] users
 
-    # methods()
-    + listed_here()
+    + setSystemStarted()
+    + getUpTime()
+    + getSystemStatus()
 }
 
-class User {
-    int uuid
-    String name
+abstract User {
+    + int uuid
+    + int accessControl
+    + String firstName
+    + String knownAs
 
-    + setName() : String
+    - setName() : String
     + getName() : String
-    + setId() : int
-    + getId() : int
+
+    - setId() : int
+    # getId() : int
 }
 
 class Student {
-    int yearOfStudy
+    + bool registered
+    + String courseName
+    + int levelOfStudy
+    + int yearOfStudy
+
+    + getCourse()
+    + getModules()
 }
 
 class Conveynor {
-    #int var
+    + editCourseDates()
+    + editReadingLists()
+    + uploadMaterials()
+    + hideCourseMaterials()
+    + showCourseMaterials()
+    + getAssignedModules()
 }
 
-class Admin {
-    int var
+class SystemAdmin {
+    + getUserByName()
+    + getUserByID()
+    + addUser()
+    + deleteUser()
+    + modifyUser()
+    + setUserAccessControl()
+    + getSystemStatus()
+    + getUpTime()
+}
+
+class CourseAdmin {
+    + setCourseName()
+    + getCourseName()
+    + setCourseId()
+    + getCourseId()
+    + setModules()
+    + getModules()
 }
 
 class Course {
     int courseId
     String courseName
-
-    + setCourseName()
-    + getCourseName()
-    + setCourseId()
-    + getCourseId()
-
+    + getRegisteredUsers()
 }
 
 class DailyTasks {
@@ -68,7 +101,7 @@ class DailyTasks {
 }
 
 class StudentSchedule {
-    SchduleUI schedule
+    ScheduleUI schedule
     ScheduleUI viewScehdule
     ScheduleUI adjustSchedule
     + getSchedule()
@@ -76,23 +109,30 @@ class StudentSchedule {
 }
 
 class Modules {
+    int credits
     int moduleId
+    String moduleName
+
+    + getModuleMaterials()
+    + getConveynor()
 }
 
 'System can exist without user but not the other way around
-System "1" -* "many" User : contains
+System "1" -* "1..*" User : contains
+System "1" -* "1..*" Course : contains
+System -- SystemAdmin
 
-User --> Conveynor
-User -> Admin
-User --> Student
+User <|-- Conveynor
+User <|-- SystemAdmin
+User <|-- CourseAdmin
+User <|-- Student
+
+Course -up- CourseAdmin
+Course -- Modules
 
 Conveynor "1" --o "0..*" Modules : "Taught by"
 Student "1..*" --o "1" Course
-Student -- Modules
-
-System -- Course
-
-Course -- Modules
+Student - Modules
 
 Student -- DailyTasks
 Student -- StudentSchedule

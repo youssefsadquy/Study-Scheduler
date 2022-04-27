@@ -23,7 +23,7 @@ who are the primary/secondary actors for this use case?
 ### Priority
 how important is it that the use case is implemented? Think: must, should, could...
 ### Typical flow of events
-describe the most typical scenario associated with this use case; indicate where other use case behaviours are \<\<include\>\>d
+describe the most typical scenario associated with this use Îcase; indicate where other use case behaviours are \<\<include\>\>d
 ### Alternative event flows
 what sub-scenarios are there? Think about if and where you’ve \<\<extend\>\>ed the use case
 
