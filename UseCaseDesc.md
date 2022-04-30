@@ -9,26 +9,24 @@
 ## :mag_right: Use case one
 
 ### Use case name
-Name of the use case
+Create Schedule
 ### Purpose
-What is the end goal of the use case?
+The purpose of this is to allow the primary user (students) to mark things into their calendar for example creating a revision time table of a sorts.
 ### Author
-Person who documented the use case
+Jan W Makarewicz
 ### Date
-Date
+30/4/2022
 ### Related requirements
-which of your functional requirements does the use case satisfy
+Users are able to select the most optimal study split from a pre-made list.
 ### Actors involved
-who are the primary/secondary actors for this use case?
+The primary actors are the students and the secondary actors are the module convenor.
 ### Priority
-how important is it that the use case is implemented? Think: must, should, could...
+It is very important as the student will likely be keeping track of the schedule created and could be making changes to their schedules.
 ### Typical flow of events
-describe the most typical scenario associated with this use Îcase; indicate where other use case behaviours are \<\<include\>\>d
+It includes being able to view the schedule that you have created.
 ### Alternative event flows
-what sub-scenarios are there? Think about if and where you’ve \<\<extend\>\>ed the use case
+It extends making an account as you would need an account to make this use case even work.
 
-
-The purpose of this use case is to allow the user to create their own schedule plan so that they can view it. The functional requirement this meets is "The system will provide for manual adjustment of the study schedule dates and times". The primary user is the student and the system to update the calendar.
 <hr>
 
 ## :mag_right: Use case two
