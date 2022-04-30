@@ -34,19 +34,19 @@ The purpose of this use case is to allow the user to create their own schedule p
 ## :mag_right: Use case two
 
 ### Use case name
-Name of the use case
+Student wishes to mark their daily tasks as complete.
 ### Purpose
-What is the end goal of the use case?
+The end goal of this use case is to allow students to mark any daily tasks that they have completed easily, to allow them to better manage their time and have a stronger understanding of outstanding work when planning future tasks. It would also be benificial as it would also allow the application to understand which tasks are outstanding when planning a timetable for the student. 
 ### Author
-Person who documented the use case
+Jaysinh Maher
 ### Date
-Date
+30/04/2022
 ### Related requirements
-which of your functional requirements does the use case satisfy
+This satisfies many of our functional requirement, specifically "The system must adjust the user's study schedule when daily tasks are not complete". This is because in order to alter the study schedule to be more efficient the system must know which tasks are and are not outstanding. Another functional requirement that is satisfied is "Each day the system will notify the user of their daily tasks to complete". This is because once again to help students stay on top of work these notifications are necassary and cannot be accurate unless the user can mark completed tasks.
 ### Actors involved
 who are the primary/secondary actors for this use case?
 ### Priority
-how important is it that the use case is implemented? Think: must, should, could...
+This use case must be implemented as a substantial goal of our system is to keep users on top of their workload and allow them to ensure that they can plan their timetables accurately and efficiently. Without being able to manage which tasks are and aren't complete the user wouldn't be able to keep track of tasks anywhere near as easily. Providing notifications of incomplete work is also a huge benifit as the user cannot accidentally forget or get confused with deadlines. Constant daily reminders also ensures that the students are always aware of their workload, mitigating the chances of them putting it off, or procrastinating.
 ### Typical flow of events
 describe the most typical scenario associated with this use case; indicate where other use case behaviours are \<\<include\>\>d
 ### Alternative event flows
