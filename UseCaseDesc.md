@@ -62,7 +62,13 @@ Youssef Sadquy
 ### Date
 02/05/2022
 ### Related requirements
-which of your functional requirements does the use case satisfy
+NOTIFICATION SETTINGS
+-   The student must select how they want to be notified
+-   The system can send notifications via email, SMS, push notifications
+-   The system should have the ability to allow a user to modify how long prior to the event a notification is sent out, e.g. 5 or 10 minutes
+
+PREFERENCES SETTINGS
+-   The student must be able to select how they wish to be notified through email, SMS, smartphone notifications, or a combination of all methods
 ### Actors involved
 The primary actors are the students and the secondary actors are the module convenor
 ### Priority
