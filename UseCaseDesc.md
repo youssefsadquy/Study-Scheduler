@@ -56,20 +56,20 @@ what sub-scenarios are there? Think about if and where you’ve \<\<extend\>\>ed
 ### Use case name
 Name of the use case
 ### Purpose
-What is the end goal of the use case?
+The end goal of this use case is to allow students to adjust the settings which include notifications and user preferences for the use of the system. This allows the system to gain permission to send notification to the user (i.e daily tasks). Preferences include other setting for the user interface (layout, contacts syncing, calnedar syncing permission).
 ### Author
-Person who documented the use case
+Youssef Sadquy
 ### Date
-Date
+02/05/2022
 ### Related requirements
 which of your functional requirements does the use case satisfy
 ### Actors involved
-who are the primary/secondary actors for this use case?
+The primary actors are the students and the secondary actors are the module convenor
 ### Priority
-how important is it that the use case is implemented? Think: must, should, could...
+It is quite important, primarily because the student will be notified for schedules, tasks via notifications which need to be allowed through the settings, secondarily because the preferences, for the ease of use of the system such as calendar syncing is performed through the settings.
 ### Typical flow of events
-describe the most typical scenario associated with this use case; indicate where other use case behaviours are \<\<include\>\>d
+The flow of the use case includes the enabling from the user of the notifications and the changing of their own preferences within the system.
 ### Alternative event flows
-what sub-scenarios are there? Think about if and where you’ve \<\<extend\>\>ed the use case
+It extends making an account as you would need an account to make this use case work.
 <hr>
 
