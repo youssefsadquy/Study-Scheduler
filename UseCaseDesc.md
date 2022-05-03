@@ -79,3 +79,21 @@ The flow of the use case includes the enabling from the user of the notification
 It extends making an account as you would need an account to make this use case work.
 <hr>
 
+## :mag_right: Use case four
+
+### Use case name
+Notifications
+### Purpose
+The end goal of this use case to allow students to view any notifications regarding their schedule. This will inlcude updates regarding their timelines, any new information or workloads being set or even messages from the system itself detailing updates such as bug fixes. 
+### Author
+Kalam Hakim
+### Date
+03/05/2022
+### Related requirements
+(The system will provide for manual adjustment of the study schedule dates and times)- Student will be shown these updates in real time in a dedicated hyperlink/subsection to allow for concise updates. (The system should notify the user about all upcoming events, these being; lectures, tutorials, labs, seminars, exams and study sessions) - Student will be informed about any changes to schedule including lecture or tutorial times along with the initial posting time and pre-reminders set to allow the student enough warning to ensure they arrive on time.
+### Actors involved
+The primary actors are the students and the secondary actors are the module convenor.
+### Priority
+High Priority. Students need to. be informed as direct and quickly as possible about upcoming events, deadline changes or new work beig set.
+### Typical flow of events
+The flow of events is that as soon as an update to the system is made (work added or class upcoming) the user is informed with a notification that they can then view in full detail by clicking on the notificaiton subsection.
