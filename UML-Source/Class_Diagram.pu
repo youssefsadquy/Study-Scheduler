@@ -33,7 +33,7 @@ class System {
 }
 
 abstract User {
-    + int uuid
+    + uuid id
     + int accessControl
     + String firstName
     + String knownAs
@@ -46,7 +46,7 @@ abstract User {
 }
 
 class Student {
-    + bool registered
+    + bool isRegistered
     + String courseName
     + int levelOfStudy
     + int yearOfStudy
@@ -56,6 +56,7 @@ class Student {
 }
 
 class Conveynor {
+    Modules[] assignedModules
     + editCourseDates()
     + editReadingLists()
     + uploadMaterials()
@@ -85,12 +86,18 @@ class CourseAdmin {
 }
 
 class Course {
-    int courseId
+    uuid courseId
     String courseName
+    Student[] students
+    CourseAdmis[] courseAdminds
+    Modules[] modules
     + getRegisteredUsers()
+    + getCourseAdminds()
+    + getStudents()
 }
 
 class DailyTasks {
+    Student student
     String taskName
     bool tasksCompleted
     int tasksOutstanding
@@ -101,6 +108,7 @@ class DailyTasks {
 }
 
 class StudentSchedule {
+    Student student
     ScheduleUI schedule
     ScheduleUI viewScehdule
     ScheduleUI adjustSchedule
@@ -109,32 +117,38 @@ class StudentSchedule {
 }
 
 class Modules {
+    uuid id
     int credits
     int moduleId
     String moduleName
+    Conveynor[] conveynors
+    Student[] registeredStudents
 
     + getModuleMaterials()
-    + getConveynor()
+    + getModuleDetails()
+    + getConveynors()
+    + getStudents()
 }
 
 'System can exist without user but not the other way around
-System "1" -* "1..*" User : contains
-System "1" -* "1..*" Course : contains
-System -- SystemAdmin
+System "1" *- "1..*" User : contains
 
-User <|-- Conveynor
-User <|-- SystemAdmin
-User <|-- CourseAdmin
-User <|-- Student
+System -- Course
+System *- "1..*" SystemAdmin : maintains
 
-Course -up- CourseAdmin
-Course -- Modules
+User *-- Conveynor : inherits
+User *-- SystemAdmin : inherits
+User *-- CourseAdmin : inherits
+User *-- Student : inherits
 
-Conveynor "1" --o "0..*" Modules : "Taught by"
-Student "1..*" --o "1" Course
-Student - Modules
+Course o-up- CourseAdmin
+Course o-- "1..*" Modules
 
-Student -- DailyTasks
-Student -- StudentSchedule
+Conveynor "1" --o "1..*" Modules : "Taught by"
+Student --o Course
+Student -o "1..*" Modules
+
+Student *-- DailyTasks
+Student *-- StudentSchedule
 
 @enduml
