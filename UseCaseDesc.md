@@ -45,13 +45,16 @@ Jaysinh Maher
 ### Related requirements
 This satisfies many of our functional requirement, specifically "The system must adjust the user's study schedule when daily tasks are not complete". This is because in order to alter the study schedule to be more efficient the system must know which tasks are and are not outstanding. Another functional requirement that is satisfied is "Each day the system will notify the user of their daily tasks to complete". This is because once again to help students stay on top of work these notifications are necassary and cannot be accurate unless the user can mark completed tasks.
 ### Actors involved
-who are the primary/secondary actors for this use case?
+The Primary Actors are the students who are responsible for updating the completion of tasks.
 ### Priority
 This use case must be implemented as a substantial goal of our system is to keep users on top of their workload and allow them to ensure that they can plan their timetables accurately and efficiently. Without being able to manage which tasks are and aren't complete the user wouldn't be able to keep track of tasks anywhere near as easily. Providing notifications of incomplete work is also a huge benifit as the user cannot accidentally forget or get confused with deadlines. Constant daily reminders also ensures that the students are always aware of their workload, mitigating the chances of them putting it off, or procrastinating.
 ### Typical flow of events
-describe the most typical scenario associated with this use case; indicate where other use case behaviours are \<\<include\>\>d
+1. Student would navigate to the daily tasks subsection.
+2. The system would showcase the various tasks/scheduled meetings that were assigned for this day.
+3. The student would then select the checkbox.
+4. The system would recognise this task as now being completed and delete it.
 ### Alternative event flows
-what sub-scenarios are there? Think about if and where you’ve \<\<extend\>\>ed the use case
+An Alternative event scenario could be the possibility of no assigned tasks(Holidays/End of term) in which case the subsection would be empty.
 <hr>
 
 ## :mag_right: Use case three
