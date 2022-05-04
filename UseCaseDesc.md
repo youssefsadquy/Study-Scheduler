@@ -60,7 +60,7 @@ An Alternative event scenario could be the possibility of no assigned tasks(Holi
 ## :mag_right: Use case three
 
 ### Use case name
-Name of the use case
+Settings
 ### Purpose
 The end goal of this use case is to allow students to adjust the settings which include notifications and user preferences for the use of the system. This allows the system to gain permission to send notification to the user (i.e daily tasks). Preferences include other setting for the user interface (layout, contacts syncing, calnedar syncing permission).
 ### Author
