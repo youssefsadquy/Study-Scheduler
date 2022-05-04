@@ -18,9 +18,14 @@
 - Create use case descriptions
 - Create UML Class diagram.
 
-### :x: Week 10
-- Continue working on use case descriptions.
-- Continue workong on UML Class Diagram
+### :x:white_check_mark: Week 10
+- Continue working on Use case descriptions.
+- Continue working on UML Class Diagram
+
+### :x: Week 11
+- Finish working on Use case descriptions
+- Finish working on UML Class Diagram
+- Complete final grammar checks and ensure legability of writing
 
 <hr>
 
