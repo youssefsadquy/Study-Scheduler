@@ -23,7 +23,10 @@ The primary actors are the students and the secondary actors are the module conv
 ### Priority
 It is very important as the student will likely be keeping track of the schedule created and could be making changes to their schedules.
 ### Typical flow of events
-It includes being able to view the schedule that you have created.
+1. The user selects the create schedule hyperlink.
+2. The system wil display a table that includes upcoming dates and timeslots.
+3. The student will then be able to input the required subjects that need to be studied.
+4. The system then computes and develops a personalised timetable detailing which studies will need to completed and allocates appropriate timeslots.
 ### Alternative event flows
 It extends making an account as you would need an account to make this use case even work.
 
