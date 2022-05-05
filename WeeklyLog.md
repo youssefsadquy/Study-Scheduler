@@ -40,6 +40,7 @@
 - Kalam Hakim: Added name to part2.txt and pushed to remote.
 - Somma Lord-Michael:
 
+
 ### :white_check_mark: Week 7
 - Kalam Hakim: Updated Week 6 Log to completed.
 - Jan Makarewicz: Created functional requirments file.
@@ -47,18 +48,29 @@
 - James Carr: Participated in the markdown design of group pages.
 - Youssef Sadquy: Reformatted functional requirements file.
 
+: What did we learn? - The group increased our knowlegde on Markdown designs which is crucial to maintaining legible and concise
+information about the project. 
+
 ### :white_check_mark: Week 8
 - Kalam Hakim: Updated Week 7 Log to completed.
 - Jan Makarewicz: Update to Weekly log working on use case digram.
 - James Carr: Created new UML Branch and pushed first draft UML use-case diagram to remote.
+
+: What did we learn? - The group developed our knowledge by studying UML case diagrams and researching how to make one with clear aims devoid of unneeded superficial information.
 
 ### :white_check_mark: Week 9
 - Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
 - James Carr: Generated UML use case diagram from uml source and merged uml development branch.  Began use case class diagram
 - Lukas Hammer: Formatted functional requirements and fixed typos
 
+: What did we learn? - The group worked on researching how to effectively describe all the key components of a Use Case descrpition and understanding the processes of how our actors will use our products.
+
+
 ### :x: Week 10
 - James Carr: Inserted UML diagram image into use case document.  Began working on a use case description. Added methods to class diagram.
 - Youssef Sadquy: Third use case description updated
 - Jaysinh Maher: Second use case description created.
 - Jan W Makrweicz: Done first use case description.
+- Kalam HaKim: Fourth use case description created along with supplimenting other descriptions.
+
+: What did we learn? - The group finalised and updated our Use Case descriptions while also adding necessary methods to our class diagram
