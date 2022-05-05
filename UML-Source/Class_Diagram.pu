@@ -23,26 +23,36 @@
 @startuml Class_Diagram
 
 class System {
-    + LocalDateTime systemStarted
-    + LocalDateTime upTime
+    - LocalDateTime systemStarted
+    - LocalDateTime upTime
+    - SMS smsAccountSettings
+    - STMP smtpAccountSettings
     + User[] users
 
     + setSystemStarted()
     + getUpTime()
     + getSystemStatus()
+    + syncWithExternalSystems()
+    + sendSMS()
+    + sendEmail()
 }
 
 abstract User {
-    + uuid id
-    + int accessControl
+    - uuid id
+    - int accessControl
     + String firstName
     + String knownAs
+    + int accessToken
 
-    - setName() : String
+    + setName() : String
     + getName() : String
 
-    - setId() : int
-    # getId() : int
+    + setId() : int
+    + getId() : int
+    + userLogin()
+    + userLogout()
+    + setAccessToken()
+    + refreshAccessToken()
 }
 
 class Student {
@@ -50,9 +60,13 @@ class Student {
     + String courseName
     + int levelOfStudy
     + int yearOfStudy
+    - String[] studentPreferences
+    - String[] studentNotificationPreferences
 
     + getCourse()
     + getModules()
+    + getUserPreferences()
+    + setUserPreferences()
 }
 
 class Conveynor {
@@ -86,11 +100,11 @@ class CourseAdmin {
 }
 
 class Course {
-    uuid courseId
-    String courseName
-    Student[] students
-    CourseAdmis[] courseAdminds
-    Modules[] modules
+    - uuid courseId
+    + String courseName
+    - Student[] students
+    - CourseAdmins[] courseAdminds
+    + Modules[] modules
     + getRegisteredUsers()
     + getCourseAdminds()
     + getStudents()
@@ -101,10 +115,13 @@ class DailyTasks {
     String taskName
     bool tasksCompleted
     int tasksOutstanding
+    Time podomoroTimer
 
     + setTasks()
     + getTasks()
     + markTaskDone()
+    + setPodomoroTimer()
+    + getPodomoroTimer()
 }
 
 class StudentSchedule {
@@ -112,8 +129,14 @@ class StudentSchedule {
     ScheduleUI schedule
     ScheduleUI viewScehdule
     ScheduleUI adjustSchedule
+    + generateOptimalSchedule()
     + getSchedule()
     + setSchedule()
+    + adjustSchedule()
+    + alertUserToDailyTasks()
+    + alertUserUpcomingEvents()
+    + checkEveningsFree()
+    + setWeekendPolicies()
 }
 
 class Modules {

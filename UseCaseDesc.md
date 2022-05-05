@@ -1,7 +1,7 @@
 # Use Case Descriptions: :pencil:
 
 <div style="margin: 50px 0; text-align: center; border: 1px solid black; border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px, rgba(0, 0, 0, 0.22) 0px 15px 12px;">
-<img src="Use-Case-Image.png" alt="Group 36 Use Case Diagram">
+<img src="Use-Case-Image.jpg" alt="Group 36 Use Case Diagram">
 </div>
 
 <hr>
