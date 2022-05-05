@@ -1,5 +1,7 @@
 # Group 36
+
 <hr>
+
 ## Repository Contents.
 
 :arrow_right: [Functional requirements](./functional-requirements.md)
