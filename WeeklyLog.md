@@ -61,3 +61,4 @@
 - James Carr: Inserted UML diagram image into use case document.  Began working on a use case description. Added methods to class diagram.
 - Youssef Sadquy: Third use case description updated
 - Jaysinh Maher: Second use case description created.
+- Jan W Makrweicz: Done first use case description.
