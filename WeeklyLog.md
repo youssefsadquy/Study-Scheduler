@@ -22,7 +22,7 @@
 - Continue working on Use case descriptions.
 - Continue working on UML Class Diagram
 
-### :x: Week 11
+### :white_check_mark: Week 11
 - Finish working on Use case descriptions
 - Finish working on UML Class Diagram
 - Complete final grammar checks and ensure legability of writing
@@ -68,7 +68,7 @@ information about the project.
 : What did we learn? - The group worked on researching how to effectively describe all the key components of a Use Case descrpition and understanding the processes of how our actors will use our products.
 
 
-### :x: Week 10
+### :white_check_mark: Week 10
 - James Carr: Inserted UML diagram image into use case document.  Began working on a use case description. Added methods to class diagram.
 - Youssef Sadquy: Third use case description updated
 - Jaysinh Maher: Second use case description created.
@@ -77,3 +77,10 @@ information about the project.
 - Kalam HaKim: Fourth use case description created along with supplimenting other descriptions.
 
 : What did we learn? - The group finalised and updated our Use Case descriptions while also adding necessary methods to our class diagram
+
+### :white_check_mark: Week 11 
+- Kalam HaKim: Filled out the last self assessment sheet and further developed use case descriptions.
+- Somma Lord-Michael: Updated use case descriptions and completed gammar checks.
+- Jaysinh Maher: Done further proof reading to ensure legibility.
+- Youssef Sadquy: Finished grammar checks and proof reading.
+- Jan W Makrweicz: Updated use case descriptions for final submission.
