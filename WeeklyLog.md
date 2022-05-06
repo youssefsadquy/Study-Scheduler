@@ -79,7 +79,7 @@ information about the project.
 : What did we learn? - The group finalised and updated our Use Case descriptions while also adding necessary methods to our class diagram
 
 ### :white_check_mark: Week 11 
-- Kalam HaKim: Filled out the last self assessment sheet and further developed use case descriptions.
+- Kalam Hakim: Filled out the last self assessment sheet and further developed use case descriptions.
 - Somma Lord-Michael: Updated use case descriptions and completed gammar checks.
 - Jaysinh Maher: Done further proof reading to ensure legibility.
 - Youssef Sadquy: Finished grammar checks and proof reading.
