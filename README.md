@@ -14,6 +14,6 @@
 
 :arrow_right: [Weekly log](./WeeklyLog.md)
 
-:arrow_right: TODO, insert SHA1 identifier of the final commit [Group36-SHA1.txt](./Group36-SHA1.txt)
+:arrow_right: [Group36-SHA1.txt](./Group36-SHA1.txt)
 
 :arrow_right: [Groupwork Self-Assessment](./CO1106_self_assessment_form_Group36.docx)
