@@ -38,12 +38,13 @@
 - Jan W Makarewicz: Added name to part2.txt and pushed to remote.
 - Youssef Sadquy: Added name to part2.txt and pushed to remote.
 - Kalam Hakim: Added name to part2.txt and pushed to remote.
-- Somma Lord-Michael:
+- Somma Lord-Michael: Added name to part2.txt and pushed to remote.
 
 
 ### :white_check_mark: Week 7
 - Kalam Hakim: Updated Week 6 Log to completed.
 - Jan Makarewicz: Created functional requirments file.
+- Somma Lord-Michael: Participated in the markdown design of group pages. 
 - Jaysinh Maher: Reformatted functional requirements file.
 - James Carr: Participated in the markdown design of group pages.
 - Youssef Sadquy: Reformatted functional requirements file.
@@ -55,11 +56,12 @@ information about the project.
 - Kalam Hakim: Updated Week 7 Log to completed.
 - Jan Makarewicz: Update to Weekly log working on use case digram.
 - James Carr: Created new UML Branch and pushed first draft UML use-case diagram to remote.
+- Somma Lord-Michael: Working on use case diagram. 
 
 : What did we learn? - The group developed our knowledge by studying UML case diagrams and researching how to make one with clear aims devoid of unneeded superficial information.
 
 ### :white_check_mark: Week 9
-- Jan Makarewicz: Created the Use Case Description word file to for me and others to add into.
+- Jan Makarewicz: Created the Use Case Description word file for me and others to add into.
 - James Carr: Generated UML use case diagram from uml source and merged uml development branch.  Began use case class diagram
 - Lukas Hammer: Formatted functional requirements and fixed typos
 
@@ -71,6 +73,7 @@ information about the project.
 - Youssef Sadquy: Third use case description updated
 - Jaysinh Maher: Second use case description created.
 - Jan W Makrweicz: Done first use case description.
+- Somma Lord-Michael: Updated second use case description.
 - Kalam HaKim: Fourth use case description created along with supplimenting other descriptions.
 
 : What did we learn? - The group finalised and updated our Use Case descriptions while also adding necessary methods to our class diagram
