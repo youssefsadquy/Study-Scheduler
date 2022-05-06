@@ -35,9 +35,9 @@ It extends making an account as you would need an account to make this use case 
 ## :mag_right: Use case two
 
 ### Use case name
-Student wishes to mark their daily tasks as complete.
+Mark completed daily tasks 
 ### Purpose
-The end goal of this use case is to allow students to mark any daily tasks that they have completed easily, to allow them to better manage their time and have a stronger understanding of outstanding work when planning future tasks. It would also be benificial as it would also allow the application to understand which tasks are outstanding when planning a timetable for the student. 
+The end goal of this use case is to allow students to mark any daily tasks that they have completed easily, to allow them to better manage their time and have a clear picture of outstanding work when planning future tasks. It would also be benificial as it would also allow the application to understand which tasks are outstanding when planning a timetable for the student. 
 ### Author
 Jaysinh Maher
 ### Date
