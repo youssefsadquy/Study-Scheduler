@@ -84,3 +84,5 @@ information about the project.
 - Jaysinh Maher: Done further proof reading to ensure legibility.
 - Youssef Sadquy: Finished grammar checks and proof reading.
 - Jan W Makrweicz: Updated use case descriptions for final submission.
+
+:What did we learn?- Our group understood the importance of proof reading to ensure that there are no grammar/spelling mistakes. We learnt how to work in a time effective manner to meet deadlines while not compromising the quality of the work.
