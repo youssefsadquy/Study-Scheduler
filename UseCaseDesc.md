@@ -100,6 +100,6 @@ Kalam Hakim
 ### Actors involved
 The primary actors are the students and the secondary actors are the module convenor.
 ### Priority
-High Priority. Students need to. be informed as direct and quickly as possible about upcoming events, deadline changes or new work beig set.
+High Priority. Students need to be informed as direct and quickly as possible about upcoming events, deadline changes or new work being set.
 ### Typical flow of events
 The flow of events is that as soon as an update to the system is made (work added or class upcoming) the user is informed with a notification that they can then view in full detail by clicking on the notificaiton subsection.
